@@ -1,0 +1,12 @@
+@import "~normalize.css/normalize.css";
+
+$red: red;
+
+body {
+    background-color: $red;
+}
+
+// Example for autoprefixer
+::placeholder {
+    color: gray;
+  }
